@@ -18,3 +18,19 @@ The [Renaissance Periodization (RP)](https://rpstrength.com/) Workout Planner is
 - Volume Landmark Tracking: Integrating Dr. Mike Israetel's MEV (Minimum Effective Volume) and MRV (Maximum Recoverable Volume) concepts, the app calculates and displays the percentage of these volume landmarks achieved per week.
 - Dynamic Workout Addition: With the capability to add multiple workouts, users can plan and manage varied routines for different days.
 - Interactive Data Visualization: the app visualizes workout data, allowing users to easily comprehend their training status (e.g., undertraining, productive, overtraining) based on their weekly volume.
+
+## Sources
+
+I got the [exercise list](exerciselist.txt) from <https://github.com/davejt/exercise/blob/master/data/exercises> with the following changes:
+
+- Removed 5 entries with extra commas and mislabeled muscle groups (quadriceps when it could have been cardio), such as "bicycling, stationary, quadriceps". Added 5 corrected entries with "cardio" label, for example, "bicycling, cardio" and "running, cardio".
+
+Affected Entries:
+
+```
+Bicycling, quadriceps # wrong target
+Bicycling, stationary, quadriceps # 2 commas & wrong target
+Running, treadmill, quadriceps
+Rowing, stationary, quadriceps
+Jogging-treadmill, quadriceps
+```
